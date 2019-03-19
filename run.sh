@@ -1,3 +1,3 @@
 # ishiki-brickd Dockerfile
 
-docker run -it --rm --name ishiki-brickd ishiki/ishiki-brickd:latest
+docker run -it --rm --name brickd aupiot/ishiki-brickd:latest

@@ -1,5 +1,5 @@
 # ishiki-brickd Dockerfile
 
-sudo docker build -t ishiki/ishiki-brickd .
-sudo docker tag ishiki/ishiki-brickd ishiki/ishiki-brickd:latest
-sudo docker push ishiki/ishiki-brickd:latest
+sudo docker build -t aupiot/ishiki-brickd .
+sudo docker tag aupiot/ishiki-brickd aupiot/ishiki-brickd:latest
+sudo docker push aupiot/ishiki-brickd:latest
