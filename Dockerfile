@@ -1,4 +1,4 @@
-FROM balenalib/raspberrypi3-debian:stretch
+FROM balenalib/raspberry-pi-python:buster
 
 RUN [ "cross-build-start" ]
 
