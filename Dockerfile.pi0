@@ -1,8 +1,8 @@
-FROM balenalib/raspberrypi3-debian:stretch
+FROM balenalib/raspberry-pi-debian:stretch
 
 #RUN [ "cross-build-start" ]
 
-RUN apt-get -y update && apt-get install -y wget pm-utils libusb-1.0-0
+RUN apt-get -y update && apt-get install -y wget pm-utils libusb-1.0-0 libudev0
 
 RUN mkdir -p /opt/ishiki
 
